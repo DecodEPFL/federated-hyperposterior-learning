@@ -1,0 +1,35 @@
+2023-05-24 14:19:28,018 
+ours mode rsmse
+General model setup:
+optimize_noise: True, noise_std: None, likelihood_str: Gaussian, covar_module_str: SE, mean_module_str: NN, kernel_nn_layers: [], mean_nn_layers: (16, 16), nonlinearity_output_m: None, nonlinearity_output_k: None, nonlinearity_hidden_m: <built-in method tanh of type object at 0x7f0085652a00>, nonlinearity_hidden_k: None, feature_dim: 2, optimize_lengthscale: True, lengthscale_fix: None, lr: 0.01, lr_decay: 0.9, task_batch_size: 5, normalize_data: True, num_iter_fit: 2500, max_iter_fit: 3000, early_stopping: True, n_threads: 8, ts_data: False, num_particles: 4, bandwidth: -1, hyper_prior_dict: {'lengthscale_raw_loc': -2.2521687, 'lengthscale_raw_scale': 1.5, 'outputscale_raw_loc': 0.54132485, 'outputscale_raw_scale': 0.01, 'noise_raw_loc': -2.2521687, 'noise_raw_scale': 0.1}, 
+2023-05-24 14:19:28,044 
+[INFO]prior factor: 0.300000
+2023-05-24 14:19:28,048 params before training
+2023-05-24 14:19:28,051 SE kernel with lengthscale = [[0.01]
+ [0.41]
+ [0.04]
+ [0.45]] (raw = [[-4.82]
+ [-0.68]
+ [-3.22]
+ [-0.56]])
+SE kernel with outputscale = [[1.01]
+ [1.01]
+ [1.00]
+ [0.99]] (raw = [[0.55]
+ [0.55]
+ [0.54]
+ [0.53]])
+NN mean
+norm of weights in hidden layer 0 = 15.42, norm of biases = 52.67
+norm of weights in hidden layer 1 = 20.02, norm of biases = 49.27
+norm of weights in output layer = 3.79, norm of biases = 66.72
+Tuned noise std = tensor([[0.0973],
+        [0.1051],
+        [0.1049],
+        [0.1094]]), raw = tensor([[-2.2814],
+        [-2.2001],
+        [-2.2014],
+        [-2.1572]])
+2023-05-24 14:19:29,088 Iter 1/2500 - Time 0.08 sec -  av. grad norm: 249.060 - Train-rsmse: 0.97, Valid-rsmse: 3.28
+2023-05-24 14:19:33,292 Iter 200/2500 - Time 4.21 sec -  av. grad norm: 244.630 - Train-rsmse: 0.28, Valid-rsmse: 0.58
+2023-05-24 14:19:37,549 Iter 400/2500 - Time 4.26 sec -  av. grad norm: 63.315 - Train-rsmse: 0.27, Valid-rsmse: 0.58

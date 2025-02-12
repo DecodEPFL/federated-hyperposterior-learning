@@ -1,0 +1,717 @@
+2023-05-23 12:41:58,725 
+nn2x2_SE_fix_noise
+2023-05-23 12:43:12,395 
+nn2x2_SE_fix_noise
+2023-05-23 12:43:13,367 iter     0 - loss 2.1279
+2023-05-23 12:43:16,015 iter   200 - loss 1.4250
+2023-05-23 12:43:18,663 iter   400 - loss 1.3598
+2023-05-23 12:43:21,312 iter   600 - loss 1.3333
+2023-05-23 12:43:24,256 iter   800 - loss 1.3150
+2023-05-23 12:43:27,007 iter  1000 - loss 1.2950
+2023-05-23 12:43:29,792 iter  1200 - loss 1.2665
+2023-05-23 12:43:32,476 iter  1400 - loss 1.2591
+2023-05-23 12:43:33,845 
+---- results with random seed  = 25 ----
+2023-05-23 12:43:33,846 RSMSE = 2.025625
+2023-05-23 12:43:33,846 CE = 0.349750
+2023-05-23 12:43:33,846 
+nn4x2_SE_fix_noise
+2023-05-23 12:43:33,864 iter     0 - loss 2.1545
+2023-05-23 12:43:36,561 iter   200 - loss 1.4241
+2023-05-23 12:43:39,237 iter   400 - loss 1.3230
+2023-05-23 12:43:41,901 iter   600 - loss 1.2839
+2023-05-23 12:43:44,711 iter   800 - loss 1.2710
+2023-05-23 12:43:47,381 iter  1000 - loss 1.2645
+2023-05-23 12:43:50,153 iter  1200 - loss 1.2607
+2023-05-23 12:43:52,794 iter  1400 - loss 1.2582
+2023-05-23 12:43:54,123 
+---- results with random seed  = 25 ----
+2023-05-23 12:43:54,123 RSMSE = 2.028196
+2023-05-23 12:43:54,123 CE = 0.350504
+2023-05-23 12:43:54,123 
+nn8x2_SE_fix_noise
+2023-05-23 12:43:54,141 iter     0 - loss 2.0987
+2023-05-23 12:43:56,739 iter   200 - loss 1.4152
+2023-05-23 12:43:59,325 iter   400 - loss 1.3110
+2023-05-23 12:44:01,900 iter   600 - loss 1.2814
+2023-05-23 12:44:04,477 iter   800 - loss 1.2567
+2023-05-23 12:44:07,188 iter  1000 - loss 1.2232
+2023-05-23 12:44:09,765 iter  1200 - loss 1.2069
+2023-05-23 12:44:12,339 iter  1400 - loss 1.2020
+2023-05-23 12:44:13,654 
+---- results with random seed  = 25 ----
+2023-05-23 12:44:13,655 RSMSE = 2.123421
+2023-05-23 12:44:13,655 CE = 0.345810
+2023-05-23 12:44:13,655 
+nn16x2_SE_fix_noise
+2023-05-23 12:44:13,671 iter     0 - loss 2.1297
+2023-05-23 12:44:16,250 iter   200 - loss 1.4011
+2023-05-23 12:44:18,836 iter   400 - loss 1.3104
+2023-05-23 12:44:21,415 iter   600 - loss 1.2766
+2023-05-23 12:44:24,007 iter   800 - loss 1.2285
+2023-05-23 12:44:26,585 iter  1000 - loss 1.2063
+2023-05-23 12:44:29,299 iter  1200 - loss 1.1958
+2023-05-23 12:44:31,875 iter  1400 - loss 1.1827
+2023-05-23 12:44:33,191 
+---- results with random seed  = 25 ----
+2023-05-23 12:44:33,191 RSMSE = 2.155318
+2023-05-23 12:44:33,191 CE = 0.347921
+2023-05-23 12:44:33,191 
+
+
+Best method is: nn2x2_SE_fix_noise
+2023-05-23 12:45:13,179 
+nn2x2_SE_fix_noise
+2023-05-23 12:45:13,198 iter     0 - loss 2.1612
+2023-05-23 12:45:15,823 iter   200 - loss 1.3683
+2023-05-23 12:45:18,435 iter   400 - loss 1.2806
+2023-05-23 12:45:21,040 iter   600 - loss 1.2482
+2023-05-23 12:45:23,646 iter   800 - loss 1.2239
+2023-05-23 12:45:26,241 iter  1000 - loss 1.2170
+2023-05-23 12:45:28,836 iter  1200 - loss 1.2130
+2023-05-23 12:45:31,430 iter  1400 - loss 1.2105
+2023-05-23 12:45:32,756 
+---- results with random seed  =  5 ----
+2023-05-23 12:45:32,757 RSMSE = 1.975559
+2023-05-23 12:45:32,757 CE = 0.310057
+2023-05-23 12:45:32,757 
+nn4x2_SE_fix_noise
+2023-05-23 12:45:32,774 iter     0 - loss 1.8267
+2023-05-23 12:45:35,532 iter   200 - loss 1.3492
+2023-05-23 12:45:38,137 iter   400 - loss 1.2627
+2023-05-23 12:45:40,735 iter   600 - loss 1.2303
+2023-05-23 12:45:43,348 iter   800 - loss 1.2149
+2023-05-23 12:45:45,949 iter  1000 - loss 1.1924
+2023-05-23 12:45:48,551 iter  1200 - loss 1.1807
+2023-05-23 12:45:51,154 iter  1400 - loss 1.1779
+2023-05-23 12:45:52,483 
+---- results with random seed  =  5 ----
+2023-05-23 12:45:52,484 RSMSE = 1.989949
+2023-05-23 12:45:52,484 CE = 0.306873
+2023-05-23 12:45:52,484 
+nn8x2_SE_fix_noise
+2023-05-23 12:45:52,501 iter     0 - loss 1.9254
+2023-05-23 12:45:55,098 iter   200 - loss 1.3507
+2023-05-23 12:45:57,838 iter   400 - loss 1.2597
+2023-05-23 12:46:00,441 iter   600 - loss 1.2174
+2023-05-23 12:46:03,048 iter   800 - loss 1.1855
+2023-05-23 12:46:05,657 iter  1000 - loss 1.1781
+2023-05-23 12:46:08,270 iter  1200 - loss 1.1735
+2023-05-23 12:46:10,921 iter  1400 - loss 1.1705
+2023-05-23 12:46:12,273 
+---- results with random seed  =  5 ----
+2023-05-23 12:46:12,274 RSMSE = 1.968100
+2023-05-23 12:46:12,274 CE = 0.311473
+2023-05-23 12:46:12,274 
+nn16x2_SE_fix_noise
+2023-05-23 12:46:12,295 iter     0 - loss 1.9098
+2023-05-23 12:46:14,917 iter   200 - loss 1.3433
+2023-05-23 12:46:17,518 iter   400 - loss 1.2569
+2023-05-23 12:46:20,261 iter   600 - loss 1.2025
+2023-05-23 12:46:22,933 iter   800 - loss 1.1849
+2023-05-23 12:46:25,604 iter  1000 - loss 1.1776
+2023-05-23 12:46:28,392 iter  1200 - loss 1.1732
+2023-05-23 12:46:31,196 iter  1400 - loss 1.1702
+2023-05-23 12:46:32,524 
+---- results with random seed  =  5 ----
+2023-05-23 12:46:32,524 RSMSE = 1.966960
+2023-05-23 12:46:32,524 CE = 0.312738
+2023-05-23 12:46:32,524 
+
+
+Best method is: nn16x2_SE_fix_noise
+2023-05-23 13:10:17,849 
+nn16x2_SE_fix_noise
+2023-05-23 13:10:17,867 iter     0 - loss 2.2473
+2023-05-23 13:10:20,467 iter   200 - loss 1.3465
+2023-05-23 13:10:23,068 iter   400 - loss 1.2507
+2023-05-23 13:10:25,834 iter   600 - loss 1.2024
+2023-05-23 13:10:28,437 iter   800 - loss 1.1864
+2023-05-23 13:10:31,050 iter  1000 - loss 1.1783
+2023-05-23 13:10:33,652 iter  1200 - loss 1.1740
+2023-05-23 13:10:36,253 iter  1400 - loss 1.1713
+2023-05-23 13:10:37,583 
+---- results with random seed  =  5 ----
+2023-05-23 13:10:37,584 RSMSE = 1.964298
+2023-05-23 13:10:37,584 CE = 0.311395
+2023-05-23 13:10:37,584 
+
+
+Best method is: nn16x2_SE_fix_noise
+2023-05-23 13:10:37,682 RSMSE new = 2.633183
+2023-05-23 13:10:37,682 CE new = 0.377536
+2023-05-23 13:11:08,541 
+nn16x2_SE_fix_noise
+2023-05-23 13:11:08,558 iter     0 - loss 2.1215
+2023-05-23 13:11:11,164 iter   200 - loss 1.3805
+2023-05-23 13:11:13,764 iter   400 - loss 1.2958
+2023-05-23 13:11:16,365 iter   600 - loss 1.2419
+2023-05-23 13:11:18,964 iter   800 - loss 1.1945
+2023-05-23 13:11:21,729 iter  1000 - loss 1.1816
+2023-05-23 13:11:24,371 iter  1200 - loss 1.1670
+2023-05-23 13:11:27,086 iter  1400 - loss 1.1633
+2023-05-23 13:11:28,459 
+---- results with random seed  = 10 ----
+2023-05-23 13:11:28,460 RSMSE = 2.186693
+2023-05-23 13:11:28,460 CE = 0.309131
+2023-05-23 13:11:28,460 
+
+
+Best method is: nn16x2_SE_fix_noise
+2023-05-23 13:11:28,585 RSMSE new = 2.449920
+2023-05-23 13:11:28,585 CE new = 0.355652
+2023-05-23 13:11:52,725 
+nn16x2_SE_fix_noise
+2023-05-23 13:11:52,745 iter     0 - loss 1.9780
+2023-05-23 13:11:55,551 iter   200 - loss 1.3730
+2023-05-23 13:11:58,246 iter   400 - loss 1.2952
+2023-05-23 13:12:01,042 iter   600 - loss 1.2663
+2023-05-23 13:12:03,729 iter   800 - loss 1.2522
+2023-05-23 13:12:06,400 iter  1000 - loss 1.2421
+2023-05-23 13:12:09,069 iter  1200 - loss 1.2338
+2023-05-23 13:12:11,903 iter  1400 - loss 1.2118
+2023-05-23 13:12:13,271 
+---- results with random seed  = 15 ----
+2023-05-23 13:12:13,272 RSMSE = 2.180395
+2023-05-23 13:12:13,272 CE = 0.312407
+2023-05-23 13:12:13,272 
+
+
+Best method is: nn16x2_SE_fix_noise
+2023-05-23 13:12:13,370 RSMSE new = 2.168605
+2023-05-23 13:12:13,370 CE new = 0.353299
+2023-05-23 13:12:35,193 
+nn16x2_SE_fix_noise
+2023-05-23 13:12:35,213 iter     0 - loss 2.0741
+2023-05-23 13:12:38,139 iter   200 - loss 1.4184
+2023-05-23 13:12:40,849 iter   400 - loss 1.3503
+2023-05-23 13:12:43,565 iter   600 - loss 1.3109
+2023-05-23 13:12:46,274 iter   800 - loss 1.2256
+2023-05-23 13:12:48,983 iter  1000 - loss 1.1799
+2023-05-23 13:12:51,699 iter  1200 - loss 1.1689
+2023-05-23 13:12:54,584 iter  1400 - loss 1.1615
+2023-05-23 13:12:56,165 
+---- results with random seed  = 20 ----
+2023-05-23 13:12:56,166 RSMSE = 2.656252
+2023-05-23 13:12:56,166 CE = 0.346579
+2023-05-23 13:12:56,166 
+
+
+Best method is: nn16x2_SE_fix_noise
+2023-05-23 13:12:56,264 RSMSE new = 2.173887
+2023-05-23 13:12:56,264 CE new = 0.337428
+2023-05-23 13:13:32,528 
+nn16x2_SE_fix_noise
+2023-05-23 13:13:32,546 iter     0 - loss 1.9991
+2023-05-23 13:13:35,287 iter   200 - loss 1.4101
+2023-05-23 13:13:37,877 iter   400 - loss 1.2795
+2023-05-23 13:13:40,469 iter   600 - loss 1.1914
+2023-05-23 13:13:43,059 iter   800 - loss 1.1698
+2023-05-23 13:13:45,651 iter  1000 - loss 1.1564
+2023-05-23 13:13:48,242 iter  1200 - loss 1.1479
+2023-05-23 13:13:50,833 iter  1400 - loss 1.1427
+2023-05-23 13:13:52,159 
+---- results with random seed  = 20 ----
+2023-05-23 13:13:52,159 RSMSE = 2.645181
+2023-05-23 13:13:52,159 CE = 0.349538
+2023-05-23 13:13:52,159 
+
+
+Best method is: nn16x2_SE_fix_noise
+2023-05-23 13:13:52,257 RSMSE new = 2.176011
+2023-05-23 13:13:52,258 CE new = 0.346048
+2023-05-23 13:14:18,890 
+nn16x2_SE_fix_noise
+2023-05-23 13:14:18,908 iter     0 - loss 2.2399
+2023-05-23 13:14:21,593 iter   200 - loss 1.4196
+2023-05-23 13:14:24,397 iter   400 - loss 1.3472
+2023-05-23 13:14:27,417 iter   600 - loss 1.2828
+2023-05-23 13:14:30,029 iter   800 - loss 1.2162
+2023-05-23 13:14:32,636 iter  1000 - loss 1.1690
+2023-05-23 13:14:35,238 iter  1200 - loss 1.1568
+2023-05-23 13:14:37,838 iter  1400 - loss 1.1497
+2023-05-23 13:14:39,167 
+---- results with random seed  = 20 ----
+2023-05-23 13:14:39,168 RSMSE = 2.663440
+2023-05-23 13:14:39,168 CE = 0.347345
+2023-05-23 13:14:39,168 
+
+
+Best method is: nn16x2_SE_fix_noise
+2023-05-23 13:14:39,266 RSMSE new = 2.176567
+2023-05-23 13:14:39,266 CE new = 0.345999
+2023-05-23 14:00:23,053 ---- nn2x2_SE_fix_noise ----
+2023-05-23 14:00:23,054 
+meta_fedavg mode rsmse
+General model setup:
+optimize_noise: True, noise_std: None, likelihood_str: Gaussian, covar_module_str: SE, mean_module_str: NN, kernel_nn_layers: [], mean_nn_layers: (2, 2), nonlinearity_output_m: None, nonlinearity_output_k: None, nonlinearity_hidden_m: <built-in method tanh of type object at 0x7fbebd28aa00>, nonlinearity_hidden_k: None, feature_dim: 2, optimize_lengthscale: True, lengthscale_fix: None, lr: 0.01, lr_decay: 0.9, task_batch_size: 5, normalize_data: True, num_iter_fit: 800, max_iter_fit: 1000, early_stopping: True, n_threads: 8, ts_data: False, num_particles: 4, bandwidth: -1, hyper_prior_dict: {'outputscale_raw_loc': 0.54132485, 'outputscale_raw_scale': 0.01, 'lengthscale_raw_loc': -1.2586915, 'lengthscale_raw_scale': 2.5, 'noise_raw_loc': -2.2521687, 'noise_raw_scale': 0.1}, prior_factor: 0, 
+2023-05-23 14:00:23,079 
+[INFO]prior factor: 0.000000
+2023-05-23 14:00:23,110 params before training
+2023-05-23 14:00:23,110 
+SE kernel with lengthscale[[0.69]]raw = [[0.00]]
+SE kernel with outputscale0.69raw = 0.00
+SE kernel with noise[0.69]raw = [0.00]
+2023-05-23 14:00:23,298 Iter 1/800 - Loss: 6.240768 - Time 0.02 sec - Neg-Valid-LL: 0.101 - Valid-RMSE: 0.229 - Calib-Err 0.168
+2023-05-23 14:00:26,733 Iter 200/800 - Loss: 4.887263 - Time 3.44 sec - Neg-Valid-LL: -0.362 - Valid-RMSE: 0.207 - Calib-Err 0.115
+2023-05-23 14:00:30,149 Iter 400/800 - Loss: 4.177103 - Time 3.39 sec - Neg-Valid-LL: -0.686 - Valid-RMSE: 0.193 - Calib-Err 0.120
+2023-05-23 14:00:33,574 Iter 600/800 - Loss: 3.836664 - Time 3.42 sec - Neg-Valid-LL: -0.743 - Valid-RMSE: 0.183 - Calib-Err 0.120
+2023-05-23 14:00:36,995 Iter 800/800 - Loss: 3.575518 - Time 3.40 sec - Neg-Valid-LL: -0.748 - Valid-RMSE: 0.170 - Calib-Err 0.118
+2023-05-23 14:00:37,013 params after training
+2023-05-23 14:00:37,014 
+SE kernel with lengthscale[[0.56]]raw = [[-0.28]]
+SE kernel with outputscale0.63raw = -0.13
+SE kernel with noise[0.04]raw = [-3.11]
+2023-05-23 14:00:37,347 
+Train-rsmse: 0.2249, Valid-rsmse: 0.7073
+2023-05-23 14:00:37,347 
+Train-rsmse: 0.2249, Valid-rsmse: 0.7073
+100.0 percent completed.
+
+2023-05-23 14:00:37,348 [RES] best over all:
+with rsmsecriterion: train = 0.2249, valid = 0.7073
+obtained by: 
+2023-05-23 14:00:37,514 ---- nn4x2_SE_fix_noise ----
+2023-05-23 14:00:37,515 
+meta_fedavg mode rsmse
+General model setup:
+optimize_noise: True, noise_std: None, likelihood_str: Gaussian, covar_module_str: SE, mean_module_str: NN, kernel_nn_layers: [], mean_nn_layers: (4, 4), nonlinearity_output_m: None, nonlinearity_output_k: None, nonlinearity_hidden_m: <built-in method tanh of type object at 0x7fbebd28aa00>, nonlinearity_hidden_k: None, feature_dim: 2, optimize_lengthscale: True, lengthscale_fix: None, lr: 0.01, lr_decay: 0.9, task_batch_size: 5, normalize_data: True, num_iter_fit: 800, max_iter_fit: 1000, early_stopping: True, n_threads: 8, ts_data: False, num_particles: 4, bandwidth: -1, hyper_prior_dict: {'outputscale_raw_loc': 0.54132485, 'outputscale_raw_scale': 0.01, 'lengthscale_raw_loc': -1.2586915, 'lengthscale_raw_scale': 2.5, 'noise_raw_loc': -2.2521687, 'noise_raw_scale': 0.1}, prior_factor: 0, 
+2023-05-23 14:00:37,515 
+[INFO]prior factor: 0.000000
+2023-05-23 14:00:37,526 params before training
+2023-05-23 14:00:37,527 
+SE kernel with lengthscale[[0.69]]raw = [[0.00]]
+SE kernel with outputscale0.69raw = 0.00
+SE kernel with noise[0.69]raw = [0.00]
+2023-05-23 14:00:37,712 Iter 1/800 - Loss: 6.384435 - Time 0.02 sec - Neg-Valid-LL: 0.101 - Valid-RMSE: 0.232 - Calib-Err 0.167
+2023-05-23 14:00:41,223 Iter 200/800 - Loss: 4.886885 - Time 3.51 sec - Neg-Valid-LL: -0.367 - Valid-RMSE: 0.205 - Calib-Err 0.117
+2023-05-23 14:00:44,975 Iter 400/800 - Loss: 3.951269 - Time 3.73 sec - Neg-Valid-LL: -0.681 - Valid-RMSE: 0.181 - Calib-Err 0.115
+2023-05-23 14:00:48,445 Iter 600/800 - Loss: 3.441844 - Time 3.46 sec - Neg-Valid-LL: -0.752 - Valid-RMSE: 0.175 - Calib-Err 0.114
+2023-05-23 14:00:52,292 Iter 800/800 - Loss: 3.419806 - Time 3.83 sec - Neg-Valid-LL: -0.755 - Valid-RMSE: 0.169 - Calib-Err 0.117
+2023-05-23 14:00:52,312 params after training
+2023-05-23 14:00:52,313 
+SE kernel with lengthscale[[0.56]]raw = [[-0.29]]
+SE kernel with outputscale0.64raw = -0.12
+SE kernel with noise[0.04]raw = [-3.17]
+2023-05-23 14:00:52,645 
+Train-rsmse: 0.2212, Valid-rsmse: 0.7185
+2023-05-23 14:00:52,645 
+Train-rsmse: 0.2212, Valid-rsmse: 0.7185
+100.0 percent completed.
+
+2023-05-23 14:00:52,646 [RES] best over all:
+with rsmsecriterion: train = 0.2212, valid = 0.7185
+obtained by: 
+2023-05-23 14:00:52,812 ---- nn8x2_SE_fix_noise ----
+2023-05-23 14:00:52,812 
+meta_fedavg mode rsmse
+General model setup:
+optimize_noise: True, noise_std: None, likelihood_str: Gaussian, covar_module_str: SE, mean_module_str: NN, kernel_nn_layers: [], mean_nn_layers: (8, 8), nonlinearity_output_m: None, nonlinearity_output_k: None, nonlinearity_hidden_m: <built-in method tanh of type object at 0x7fbebd28aa00>, nonlinearity_hidden_k: None, feature_dim: 2, optimize_lengthscale: True, lengthscale_fix: None, lr: 0.01, lr_decay: 0.9, task_batch_size: 5, normalize_data: True, num_iter_fit: 800, max_iter_fit: 1000, early_stopping: True, n_threads: 8, ts_data: False, num_particles: 4, bandwidth: -1, hyper_prior_dict: {'outputscale_raw_loc': 0.54132485, 'outputscale_raw_scale': 0.01, 'lengthscale_raw_loc': -1.2586915, 'lengthscale_raw_scale': 2.5, 'noise_raw_loc': -2.2521687, 'noise_raw_scale': 0.1}, prior_factor: 0, 
+2023-05-23 14:00:52,813 
+[INFO]prior factor: 0.000000
+2023-05-23 14:00:52,824 params before training
+2023-05-23 14:00:52,824 
+SE kernel with lengthscale[[0.69]]raw = [[0.00]]
+SE kernel with outputscale0.69raw = 0.00
+SE kernel with noise[0.69]raw = [0.00]
+2023-05-23 14:00:53,008 Iter 1/800 - Loss: 6.319653 - Time 0.02 sec - Neg-Valid-LL: 0.101 - Valid-RMSE: 0.233 - Calib-Err 0.167
+2023-05-23 14:00:56,437 Iter 200/800 - Loss: 4.824450 - Time 3.43 sec - Neg-Valid-LL: -0.362 - Valid-RMSE: 0.210 - Calib-Err 0.109
+2023-05-23 14:00:59,898 Iter 400/800 - Loss: 3.801214 - Time 3.44 sec - Neg-Valid-LL: -0.696 - Valid-RMSE: 0.179 - Calib-Err 0.113
+2023-05-23 14:01:03,364 Iter 600/800 - Loss: 3.397709 - Time 3.46 sec - Neg-Valid-LL: -0.753 - Valid-RMSE: 0.176 - Calib-Err 0.114
+2023-05-23 14:01:06,827 Iter 800/800 - Loss: 3.393795 - Time 3.45 sec - Neg-Valid-LL: -0.752 - Valid-RMSE: 0.169 - Calib-Err 0.118
+2023-05-23 14:01:06,849 params after training
+2023-05-23 14:01:06,850 
+SE kernel with lengthscale[[0.56]]raw = [[-0.29]]
+SE kernel with outputscale0.64raw = -0.12
+SE kernel with noise[0.04]raw = [-3.19]
+2023-05-23 14:01:07,181 
+Train-rsmse: 0.2191, Valid-rsmse: 0.7289
+2023-05-23 14:01:07,181 
+Train-rsmse: 0.2191, Valid-rsmse: 0.7289
+100.0 percent completed.
+
+2023-05-23 14:01:07,181 [RES] best over all:
+with rsmsecriterion: train = 0.2191, valid = 0.7289
+obtained by: 
+2023-05-23 14:01:07,347 ---- nn16x2_SE_fix_noise ----
+2023-05-23 14:01:07,347 
+meta_fedavg mode rsmse
+General model setup:
+optimize_noise: True, noise_std: None, likelihood_str: Gaussian, covar_module_str: SE, mean_module_str: NN, kernel_nn_layers: [], mean_nn_layers: (16, 16), nonlinearity_output_m: None, nonlinearity_output_k: None, nonlinearity_hidden_m: <built-in method tanh of type object at 0x7fbebd28aa00>, nonlinearity_hidden_k: None, feature_dim: 2, optimize_lengthscale: True, lengthscale_fix: None, lr: 0.01, lr_decay: 0.9, task_batch_size: 5, normalize_data: True, num_iter_fit: 800, max_iter_fit: 1000, early_stopping: True, n_threads: 8, ts_data: False, num_particles: 4, bandwidth: -1, hyper_prior_dict: {'outputscale_raw_loc': 0.54132485, 'outputscale_raw_scale': 0.01, 'lengthscale_raw_loc': -1.2586915, 'lengthscale_raw_scale': 2.5, 'noise_raw_loc': -2.2521687, 'noise_raw_scale': 0.1}, prior_factor: 0, 
+2023-05-23 14:01:07,348 
+[INFO]prior factor: 0.000000
+2023-05-23 14:01:07,358 params before training
+2023-05-23 14:01:07,359 
+SE kernel with lengthscale[[0.69]]raw = [[0.00]]
+SE kernel with outputscale0.69raw = 0.00
+SE kernel with noise[0.69]raw = [0.00]
+2023-05-23 14:01:07,544 Iter 1/800 - Loss: 6.104018 - Time 0.02 sec - Neg-Valid-LL: 0.102 - Valid-RMSE: 0.233 - Calib-Err 0.167
+2023-05-23 14:01:10,983 Iter 200/800 - Loss: 4.788545 - Time 3.44 sec - Neg-Valid-LL: -0.370 - Valid-RMSE: 0.213 - Calib-Err 0.106
+2023-05-23 14:01:14,442 Iter 400/800 - Loss: 3.742036 - Time 3.43 sec - Neg-Valid-LL: -0.711 - Valid-RMSE: 0.177 - Calib-Err 0.115
+2023-05-23 14:01:17,902 Iter 600/800 - Loss: 3.369969 - Time 3.45 sec - Neg-Valid-LL: -0.753 - Valid-RMSE: 0.177 - Calib-Err 0.114
+2023-05-23 14:01:21,381 Iter 800/800 - Loss: 3.358584 - Time 3.46 sec - Neg-Valid-LL: -0.751 - Valid-RMSE: 0.170 - Calib-Err 0.117
+2023-05-23 14:01:21,403 params after training
+2023-05-23 14:01:21,404 
+SE kernel with lengthscale[[0.55]]raw = [[-0.30]]
+SE kernel with outputscale0.63raw = -0.13
+SE kernel with noise[0.04]raw = [-3.23]
+2023-05-23 14:01:21,733 
+Train-rsmse: 0.2140, Valid-rsmse: 0.7525
+2023-05-23 14:01:21,733 
+Train-rsmse: 0.2140, Valid-rsmse: 0.7525
+100.0 percent completed.
+
+2023-05-23 14:01:21,734 [RES] best over all:
+with rsmsecriterion: train = 0.2140, valid = 0.7525
+obtained by: 
+2023-05-23 14:01:21,898 
+
+Best method is nn2x2_SE_fix_noise
+2023-05-23 14:01:21,899 Mean RSMSE for existing clients = 0.707324
+2023-05-23 14:03:41,257 ---- nn2x2_SE_fix_noise ----
+2023-05-23 14:03:41,258 
+meta_fedavg mode rsmse
+General model setup:
+optimize_noise: True, noise_std: None, likelihood_str: Gaussian, covar_module_str: SE, mean_module_str: NN, kernel_nn_layers: [], mean_nn_layers: (2, 2), nonlinearity_output_m: None, nonlinearity_output_k: None, nonlinearity_hidden_m: <built-in method tanh of type object at 0x7fbebd28aa00>, nonlinearity_hidden_k: None, feature_dim: 2, optimize_lengthscale: True, lengthscale_fix: None, lr: 0.01, lr_decay: 0.9, task_batch_size: 5, normalize_data: True, num_iter_fit: 2500, max_iter_fit: 3000, early_stopping: True, n_threads: 8, ts_data: False, num_particles: 4, bandwidth: -1, hyper_prior_dict: {'outputscale_raw_loc': 0.54132485, 'outputscale_raw_scale': 0.01, 'lengthscale_raw_loc': -1.2586915, 'lengthscale_raw_scale': 2.5, 'noise_raw_loc': -2.2521687, 'noise_raw_scale': 0.1}, prior_factor: 0, 
+2023-05-23 14:03:41,258 
+[INFO]prior factor: 0.000000
+2023-05-23 14:03:41,286 params before training
+2023-05-23 14:03:41,286 
+SE kernel with lengthscale[[0.69]]raw = [[0.00]]
+SE kernel with outputscale0.69raw = 0.00
+SE kernel with noise[0.69]raw = [0.00]
+2023-05-23 14:03:41,472 Iter 1/2500 - Loss: 6.240768 - Time 0.02 sec - Neg-Valid-LL: 0.101 - Valid-RMSE: 0.229 - Calib-Err 0.168
+2023-05-23 14:03:44,932 Iter 200/2500 - Loss: 4.887263 - Time 3.46 sec - Neg-Valid-LL: -0.362 - Valid-RMSE: 0.207 - Calib-Err 0.115
+2023-05-23 14:03:48,404 Iter 400/2500 - Loss: 4.177103 - Time 3.45 sec - Neg-Valid-LL: -0.686 - Valid-RMSE: 0.193 - Calib-Err 0.120
+2023-05-23 14:03:51,891 Iter 600/2500 - Loss: 3.836664 - Time 3.48 sec - Neg-Valid-LL: -0.743 - Valid-RMSE: 0.183 - Calib-Err 0.120
+2023-05-23 14:03:55,344 Iter 800/2500 - Loss: 3.575518 - Time 3.43 sec - Neg-Valid-LL: -0.748 - Valid-RMSE: 0.170 - Calib-Err 0.118
+2023-05-23 14:03:58,816 Iter 1000/2500 - Loss: 3.304385 - Time 3.46 sec - Neg-Valid-LL: -0.756 - Valid-RMSE: 0.175 - Calib-Err 0.115
+2023-05-23 14:04:02,276 Iter 1200/2500 - Loss: 3.365468 - Time 3.44 sec - Neg-Valid-LL: -0.758 - Valid-RMSE: 0.176 - Calib-Err 0.116
+2023-05-23 14:04:05,738 Iter 1400/2500 - Loss: 3.365578 - Time 3.46 sec - Neg-Valid-LL: -0.752 - Valid-RMSE: 0.180 - Calib-Err 0.114
+2023-05-23 14:04:09,191 Iter 1600/2500 - Loss: 3.386349 - Time 3.43 sec - Neg-Valid-LL: -0.734 - Valid-RMSE: 0.176 - Calib-Err 0.116
+2023-05-23 14:04:12,609 Iter 1800/2500 - Loss: 3.289093 - Time 3.40 sec - Neg-Valid-LL: -0.769 - Valid-RMSE: 0.178 - Calib-Err 0.115
+2023-05-23 14:04:16,020 Iter 2000/2500 - Loss: 3.334849 - Time 3.39 sec - Neg-Valid-LL: -0.757 - Valid-RMSE: 0.180 - Calib-Err 0.114
+2023-05-23 14:04:19,576 Iter 2200/2500 - Loss: 3.299022 - Time 3.54 sec - Neg-Valid-LL: -0.752 - Valid-RMSE: 0.182 - Calib-Err 0.114
+2023-05-23 14:04:23,690 Iter 2400/2500 - Loss: 3.334189 - Time 4.10 sec - Neg-Valid-LL: -0.749 - Valid-RMSE: 0.178 - Calib-Err 0.116
+2023-05-23 14:04:25,341 params after training
+2023-05-23 14:04:25,343 
+SE kernel with lengthscale[[0.53]]raw = [[-0.36]]
+SE kernel with outputscale0.64raw = -0.11
+SE kernel with noise[0.04]raw = [-3.16]
+2023-05-23 14:04:25,674 
+Train-rsmse: 0.2149, Valid-rsmse: 0.8195
+2023-05-23 14:04:25,675 
+Train-rsmse: 0.2149, Valid-rsmse: 0.8195
+100.0 percent completed.
+
+2023-05-23 14:04:25,675 [RES] best over all:
+with rsmsecriterion: train = 0.2149, valid = 0.8195
+obtained by: 
+2023-05-23 14:04:25,842 ---- nn4x2_SE_fix_noise ----
+2023-05-23 14:04:25,842 
+meta_fedavg mode rsmse
+General model setup:
+optimize_noise: True, noise_std: None, likelihood_str: Gaussian, covar_module_str: SE, mean_module_str: NN, kernel_nn_layers: [], mean_nn_layers: (4, 4), nonlinearity_output_m: None, nonlinearity_output_k: None, nonlinearity_hidden_m: <built-in method tanh of type object at 0x7fbebd28aa00>, nonlinearity_hidden_k: None, feature_dim: 2, optimize_lengthscale: True, lengthscale_fix: None, lr: 0.01, lr_decay: 0.9, task_batch_size: 5, normalize_data: True, num_iter_fit: 2500, max_iter_fit: 3000, early_stopping: True, n_threads: 8, ts_data: False, num_particles: 4, bandwidth: -1, hyper_prior_dict: {'outputscale_raw_loc': 0.54132485, 'outputscale_raw_scale': 0.01, 'lengthscale_raw_loc': -1.2586915, 'lengthscale_raw_scale': 2.5, 'noise_raw_loc': -2.2521687, 'noise_raw_scale': 0.1}, prior_factor: 0, 
+2023-05-23 14:04:25,842 
+[INFO]prior factor: 0.000000
+2023-05-23 14:04:25,853 params before training
+2023-05-23 14:04:25,854 
+SE kernel with lengthscale[[0.69]]raw = [[0.00]]
+SE kernel with outputscale0.69raw = 0.00
+SE kernel with noise[0.69]raw = [0.00]
+2023-05-23 14:04:26,038 Iter 1/2500 - Loss: 6.384435 - Time 0.02 sec - Neg-Valid-LL: 0.101 - Valid-RMSE: 0.232 - Calib-Err 0.167
+2023-05-23 14:04:29,851 Iter 200/2500 - Loss: 4.886885 - Time 3.81 sec - Neg-Valid-LL: -0.367 - Valid-RMSE: 0.205 - Calib-Err 0.117
+2023-05-23 14:04:33,253 Iter 400/2500 - Loss: 3.951269 - Time 3.38 sec - Neg-Valid-LL: -0.681 - Valid-RMSE: 0.181 - Calib-Err 0.115
+2023-05-23 14:04:36,659 Iter 600/2500 - Loss: 3.441844 - Time 3.40 sec - Neg-Valid-LL: -0.752 - Valid-RMSE: 0.175 - Calib-Err 0.114
+2023-05-23 14:04:40,065 Iter 800/2500 - Loss: 3.419806 - Time 3.39 sec - Neg-Valid-LL: -0.755 - Valid-RMSE: 0.169 - Calib-Err 0.117
+2023-05-23 14:04:43,473 Iter 1000/2500 - Loss: 3.278749 - Time 3.40 sec - Neg-Valid-LL: -0.759 - Valid-RMSE: 0.177 - Calib-Err 0.116
+2023-05-23 14:04:46,874 Iter 1200/2500 - Loss: 3.348079 - Time 3.38 sec - Neg-Valid-LL: -0.764 - Valid-RMSE: 0.176 - Calib-Err 0.116
+2023-05-23 14:04:50,287 Iter 1400/2500 - Loss: 3.349514 - Time 3.40 sec - Neg-Valid-LL: -0.761 - Valid-RMSE: 0.181 - Calib-Err 0.115
+2023-05-23 14:04:53,689 Iter 1600/2500 - Loss: 3.372228 - Time 3.39 sec - Neg-Valid-LL: -0.746 - Valid-RMSE: 0.175 - Calib-Err 0.117
+2023-05-23 14:04:57,323 Iter 1800/2500 - Loss: 3.272503 - Time 3.49 sec - Neg-Valid-LL: -0.783 - Valid-RMSE: 0.175 - Calib-Err 0.114
+2023-05-23 14:05:01,289 Iter 2000/2500 - Loss: 3.304027 - Time 4.07 sec - Neg-Valid-LL: -0.774 - Valid-RMSE: 0.180 - Calib-Err 0.113
+2023-05-23 14:05:05,552 Iter 2200/2500 - Loss: 3.256045 - Time 4.26 sec - Neg-Valid-LL: -0.766 - Valid-RMSE: 0.181 - Calib-Err 0.113
+2023-05-23 14:05:08,997 Iter 2400/2500 - Loss: 3.295672 - Time 3.42 sec - Neg-Valid-LL: -0.763 - Valid-RMSE: 0.176 - Calib-Err 0.114
+2023-05-23 14:05:10,667 params after training
+2023-05-23 14:05:10,674 
+SE kernel with lengthscale[[0.52]]raw = [[-0.38]]
+SE kernel with outputscale0.63raw = -0.12
+SE kernel with noise[0.04]raw = [-3.20]
+2023-05-23 14:05:11,006 
+Train-rsmse: 0.2087, Valid-rsmse: 0.7882
+2023-05-23 14:05:11,006 
+Train-rsmse: 0.2087, Valid-rsmse: 0.7882
+100.0 percent completed.
+
+2023-05-23 14:05:11,006 [RES] best over all:
+with rsmsecriterion: train = 0.2087, valid = 0.7882
+obtained by: 
+2023-05-23 14:05:11,172 ---- nn8x2_SE_fix_noise ----
+2023-05-23 14:05:11,173 
+meta_fedavg mode rsmse
+General model setup:
+optimize_noise: True, noise_std: None, likelihood_str: Gaussian, covar_module_str: SE, mean_module_str: NN, kernel_nn_layers: [], mean_nn_layers: (8, 8), nonlinearity_output_m: None, nonlinearity_output_k: None, nonlinearity_hidden_m: <built-in method tanh of type object at 0x7fbebd28aa00>, nonlinearity_hidden_k: None, feature_dim: 2, optimize_lengthscale: True, lengthscale_fix: None, lr: 0.01, lr_decay: 0.9, task_batch_size: 5, normalize_data: True, num_iter_fit: 2500, max_iter_fit: 3000, early_stopping: True, n_threads: 8, ts_data: False, num_particles: 4, bandwidth: -1, hyper_prior_dict: {'outputscale_raw_loc': 0.54132485, 'outputscale_raw_scale': 0.01, 'lengthscale_raw_loc': -1.2586915, 'lengthscale_raw_scale': 2.5, 'noise_raw_loc': -2.2521687, 'noise_raw_scale': 0.1}, prior_factor: 0, 
+2023-05-23 14:05:11,173 
+[INFO]prior factor: 0.000000
+2023-05-23 14:05:11,184 params before training
+2023-05-23 14:05:11,184 
+SE kernel with lengthscale[[0.69]]raw = [[0.00]]
+SE kernel with outputscale0.69raw = 0.00
+SE kernel with noise[0.69]raw = [0.00]
+2023-05-23 14:05:11,369 Iter 1/2500 - Loss: 6.319653 - Time 0.02 sec - Neg-Valid-LL: 0.101 - Valid-RMSE: 0.233 - Calib-Err 0.167
+2023-05-23 14:05:14,789 Iter 200/2500 - Loss: 4.824450 - Time 3.42 sec - Neg-Valid-LL: -0.362 - Valid-RMSE: 0.210 - Calib-Err 0.109
+2023-05-23 14:05:18,233 Iter 400/2500 - Loss: 3.801214 - Time 3.42 sec - Neg-Valid-LL: -0.696 - Valid-RMSE: 0.179 - Calib-Err 0.113
+2023-05-23 14:05:21,686 Iter 600/2500 - Loss: 3.397709 - Time 3.44 sec - Neg-Valid-LL: -0.753 - Valid-RMSE: 0.176 - Calib-Err 0.114
+2023-05-23 14:05:25,127 Iter 800/2500 - Loss: 3.393795 - Time 3.42 sec - Neg-Valid-LL: -0.752 - Valid-RMSE: 0.169 - Calib-Err 0.118
+2023-05-23 14:05:28,580 Iter 1000/2500 - Loss: 3.258240 - Time 3.44 sec - Neg-Valid-LL: -0.755 - Valid-RMSE: 0.179 - Calib-Err 0.116
+2023-05-23 14:05:32,200 Iter 1200/2500 - Loss: 3.338879 - Time 3.60 sec - Neg-Valid-LL: -0.767 - Valid-RMSE: 0.177 - Calib-Err 0.115
+2023-05-23 14:05:36,334 Iter 1400/2500 - Loss: 3.321584 - Time 4.12 sec - Neg-Valid-LL: -0.758 - Valid-RMSE: 0.183 - Calib-Err 0.114
+2023-05-23 14:05:40,431 Iter 1600/2500 - Loss: 3.339199 - Time 4.07 sec - Neg-Valid-LL: -0.745 - Valid-RMSE: 0.174 - Calib-Err 0.118
+2023-05-23 14:05:43,873 Iter 1800/2500 - Loss: 3.227612 - Time 3.43 sec - Neg-Valid-LL: -0.776 - Valid-RMSE: 0.176 - Calib-Err 0.115
+2023-05-23 14:05:47,317 Iter 2000/2500 - Loss: 3.254933 - Time 3.43 sec - Neg-Valid-LL: -0.751 - Valid-RMSE: 0.184 - Calib-Err 0.112
+2023-05-23 14:05:50,769 Iter 2200/2500 - Loss: 3.211258 - Time 3.43 sec - Neg-Valid-LL: -0.756 - Valid-RMSE: 0.183 - Calib-Err 0.113
+2023-05-23 14:05:54,205 Iter 2400/2500 - Loss: 3.257856 - Time 3.42 sec - Neg-Valid-LL: -0.747 - Valid-RMSE: 0.180 - Calib-Err 0.115
+2023-05-23 14:05:55,874 params after training
+2023-05-23 14:05:55,875 
+SE kernel with lengthscale[[0.50]]raw = [[-0.43]]
+SE kernel with outputscale0.63raw = -0.13
+SE kernel with noise[0.04]raw = [-3.27]
+2023-05-23 14:05:56,206 
+Train-rsmse: 0.2023, Valid-rsmse: 0.7777
+2023-05-23 14:05:56,206 
+Train-rsmse: 0.2023, Valid-rsmse: 0.7777
+100.0 percent completed.
+
+2023-05-23 14:05:56,207 [RES] best over all:
+with rsmsecriterion: train = 0.2023, valid = 0.7777
+obtained by: 
+2023-05-23 14:05:56,372 ---- nn16x2_SE_fix_noise ----
+2023-05-23 14:05:56,373 
+meta_fedavg mode rsmse
+General model setup:
+optimize_noise: True, noise_std: None, likelihood_str: Gaussian, covar_module_str: SE, mean_module_str: NN, kernel_nn_layers: [], mean_nn_layers: (16, 16), nonlinearity_output_m: None, nonlinearity_output_k: None, nonlinearity_hidden_m: <built-in method tanh of type object at 0x7fbebd28aa00>, nonlinearity_hidden_k: None, feature_dim: 2, optimize_lengthscale: True, lengthscale_fix: None, lr: 0.01, lr_decay: 0.9, task_batch_size: 5, normalize_data: True, num_iter_fit: 2500, max_iter_fit: 3000, early_stopping: True, n_threads: 8, ts_data: False, num_particles: 4, bandwidth: -1, hyper_prior_dict: {'outputscale_raw_loc': 0.54132485, 'outputscale_raw_scale': 0.01, 'lengthscale_raw_loc': -1.2586915, 'lengthscale_raw_scale': 2.5, 'noise_raw_loc': -2.2521687, 'noise_raw_scale': 0.1}, prior_factor: 0, 
+2023-05-23 14:05:56,373 
+[INFO]prior factor: 0.000000
+2023-05-23 14:05:56,384 params before training
+2023-05-23 14:05:56,384 
+SE kernel with lengthscale[[0.69]]raw = [[0.00]]
+SE kernel with outputscale0.69raw = 0.00
+SE kernel with noise[0.69]raw = [0.00]
+2023-05-23 14:05:56,568 Iter 1/2500 - Loss: 6.104018 - Time 0.02 sec - Neg-Valid-LL: 0.102 - Valid-RMSE: 0.233 - Calib-Err 0.167
+2023-05-23 14:06:00,030 Iter 200/2500 - Loss: 4.788545 - Time 3.46 sec - Neg-Valid-LL: -0.370 - Valid-RMSE: 0.213 - Calib-Err 0.106
+2023-05-23 14:06:03,516 Iter 400/2500 - Loss: 3.742036 - Time 3.46 sec - Neg-Valid-LL: -0.711 - Valid-RMSE: 0.177 - Calib-Err 0.115
+2023-05-23 14:06:07,014 Iter 600/2500 - Loss: 3.369969 - Time 3.49 sec - Neg-Valid-LL: -0.753 - Valid-RMSE: 0.177 - Calib-Err 0.114
+2023-05-23 14:06:10,790 Iter 800/2500 - Loss: 3.358584 - Time 3.50 sec - Neg-Valid-LL: -0.751 - Valid-RMSE: 0.170 - Calib-Err 0.117
+2023-05-23 14:06:14,454 Iter 1000/2500 - Loss: 3.205655 - Time 3.91 sec - Neg-Valid-LL: -0.747 - Valid-RMSE: 0.175 - Calib-Err 0.119
+2023-05-23 14:06:18,459 Iter 1200/2500 - Loss: 3.265836 - Time 3.99 sec - Neg-Valid-LL: -0.755 - Valid-RMSE: 0.174 - Calib-Err 0.118
+2023-05-23 14:06:21,914 Iter 1400/2500 - Loss: 3.237263 - Time 3.44 sec - Neg-Valid-LL: -0.737 - Valid-RMSE: 0.182 - Calib-Err 0.117
+2023-05-23 14:06:25,364 Iter 1600/2500 - Loss: 3.243645 - Time 3.43 sec - Neg-Valid-LL: -0.718 - Valid-RMSE: 0.172 - Calib-Err 0.120
+2023-05-23 14:06:28,824 Iter 1800/2500 - Loss: 3.113491 - Time 3.45 sec - Neg-Valid-LL: -0.742 - Valid-RMSE: 0.174 - Calib-Err 0.117
+2023-05-23 14:06:32,266 Iter 2000/2500 - Loss: 3.135309 - Time 3.42 sec - Neg-Valid-LL: -0.713 - Valid-RMSE: 0.184 - Calib-Err 0.115
+2023-05-23 14:06:35,717 Iter 2200/2500 - Loss: 3.069066 - Time 3.44 sec - Neg-Valid-LL: -0.711 - Valid-RMSE: 0.181 - Calib-Err 0.114
+2023-05-23 14:06:39,155 Iter 2400/2500 - Loss: 3.145973 - Time 3.42 sec - Neg-Valid-LL: -0.705 - Valid-RMSE: 0.178 - Calib-Err 0.116
+2023-05-23 14:06:40,827 params after training
+2023-05-23 14:06:40,851 
+SE kernel with lengthscale[[0.51]]raw = [[-0.41]]
+SE kernel with outputscale0.63raw = -0.14
+SE kernel with noise[0.04]raw = [-3.33]
+2023-05-23 14:06:41,180 
+Train-rsmse: 0.1867, Valid-rsmse: 0.7474
+2023-05-23 14:06:41,180 
+Train-rsmse: 0.1867, Valid-rsmse: 0.7474
+100.0 percent completed.
+
+2023-05-23 14:06:41,181 [RES] best over all:
+with rsmsecriterion: train = 0.1867, valid = 0.7474
+obtained by: 
+2023-05-23 14:06:41,346 
+
+Best method is nn16x2_SE_fix_noise
+2023-05-23 14:06:41,346 Mean RSMSE for existing clients = 0.747435
+2023-05-23 14:06:41,346 Mean CE for existing clients = 0.115363
+2023-05-23 14:06:41,509 Mean RSMSE for new clients = 0.763972
+2023-05-23 14:06:41,509 Mean CE for new clients = 0.162741
+2023-05-23 14:07:24,068 ---- nn16x2_SE_fix_noise ----
+2023-05-23 14:07:24,069 
+meta_fedavg mode rsmse
+General model setup:
+optimize_noise: True, noise_std: None, likelihood_str: Gaussian, covar_module_str: SE, mean_module_str: NN, kernel_nn_layers: [], mean_nn_layers: (16, 16), nonlinearity_output_m: None, nonlinearity_output_k: None, nonlinearity_hidden_m: <built-in method tanh of type object at 0x7fbebd28aa00>, nonlinearity_hidden_k: None, feature_dim: 2, optimize_lengthscale: True, lengthscale_fix: None, lr: 0.01, lr_decay: 0.9, task_batch_size: 5, normalize_data: True, num_iter_fit: 2500, max_iter_fit: 3000, early_stopping: True, n_threads: 8, ts_data: False, num_particles: 4, bandwidth: -1, hyper_prior_dict: {'outputscale_raw_loc': 0.54132485, 'outputscale_raw_scale': 0.01, 'lengthscale_raw_loc': -1.2586915, 'lengthscale_raw_scale': 2.5, 'noise_raw_loc': -2.2521687, 'noise_raw_scale': 0.1}, prior_factor: 0, 
+2023-05-23 14:07:24,072 
+[INFO]prior factor: 0.000000
+2023-05-23 14:07:24,112 params before training
+2023-05-23 14:07:24,115 
+SE kernel with lengthscale[[0.69]]raw = [[0.00]]
+SE kernel with outputscale0.69raw = 0.00
+SE kernel with noise[0.69]raw = [0.00]
+2023-05-23 14:07:24,627 Iter 1/2500 - Loss: 5.409534 - Time 0.07 sec - Neg-Valid-LL: 0.186 - Valid-RMSE: 0.231 - Calib-Err 0.170
+2023-05-23 14:07:28,111 Iter 200/2500 - Loss: 4.766796 - Time 3.75 sec - Neg-Valid-LL: -0.349 - Valid-RMSE: 0.186 - Calib-Err 0.130
+2023-05-23 14:07:31,999 Iter 400/2500 - Loss: 3.592767 - Time 3.87 sec - Neg-Valid-LL: -0.673 - Valid-RMSE: 0.189 - Calib-Err 0.128
+2023-05-23 14:07:35,417 Iter 600/2500 - Loss: 3.421475 - Time 3.40 sec - Neg-Valid-LL: -0.704 - Valid-RMSE: 0.192 - Calib-Err 0.129
+2023-05-23 14:07:38,832 Iter 800/2500 - Loss: 3.328826 - Time 3.39 sec - Neg-Valid-LL: -0.686 - Valid-RMSE: 0.198 - Calib-Err 0.133
+2023-05-23 14:07:42,258 Iter 1000/2500 - Loss: 3.079759 - Time 3.42 sec - Neg-Valid-LL: -0.659 - Valid-RMSE: 0.212 - Calib-Err 0.129
+2023-05-23 14:07:45,672 Iter 1200/2500 - Loss: 3.124987 - Time 3.40 sec - Neg-Valid-LL: -0.688 - Valid-RMSE: 0.195 - Calib-Err 0.130
+2023-05-23 14:07:49,095 Iter 1400/2500 - Loss: 3.147101 - Time 3.41 sec - Neg-Valid-LL: -0.691 - Valid-RMSE: 0.189 - Calib-Err 0.127
+2023-05-23 14:07:52,513 Iter 1600/2500 - Loss: 3.160007 - Time 3.40 sec - Neg-Valid-LL: -0.683 - Valid-RMSE: 0.201 - Calib-Err 0.123
+2023-05-23 14:07:55,938 Iter 1800/2500 - Loss: 2.970767 - Time 3.42 sec - Neg-Valid-LL: -0.695 - Valid-RMSE: 0.192 - Calib-Err 0.129
+2023-05-23 14:07:59,469 Iter 2000/2500 - Loss: 3.036676 - Time 3.52 sec - Neg-Valid-LL: -0.696 - Valid-RMSE: 0.197 - Calib-Err 0.129
+2023-05-23 14:08:03,384 Iter 2200/2500 - Loss: 3.007719 - Time 3.90 sec - Neg-Valid-LL: -0.671 - Valid-RMSE: 0.209 - Calib-Err 0.124
+2023-05-23 14:08:06,830 Iter 2400/2500 - Loss: 3.014041 - Time 3.40 sec - Neg-Valid-LL: -0.689 - Valid-RMSE: 0.190 - Calib-Err 0.128
+2023-05-23 14:08:08,490 params after training
+2023-05-23 14:08:08,492 
+SE kernel with lengthscale[[0.64]]raw = [[-0.11]]
+SE kernel with outputscale0.72raw = 0.05
+SE kernel with noise[0.04]raw = [-3.19]
+2023-05-23 14:08:08,825 
+Train-rsmse: 0.3217, Valid-rsmse: 0.8295
+2023-05-23 14:08:08,825 
+Train-rsmse: 0.3217, Valid-rsmse: 0.8295
+100.0 percent completed.
+
+2023-05-23 14:08:08,825 [RES] best over all:
+with rsmsecriterion: train = 0.3217, valid = 0.8295
+obtained by: 
+2023-05-23 14:08:08,992 
+
+Best method is nn16x2_SE_fix_noise
+2023-05-23 14:08:08,992 Mean RSMSE for existing clients = 0.829503
+2023-05-23 14:08:08,992 Mean CE for existing clients = 0.128430
+2023-05-23 14:08:09,157 Mean RSMSE for new clients = 0.810580
+2023-05-23 14:08:09,157 Mean CE for new clients = 0.143967
+2023-05-23 14:08:26,122 ---- nn16x2_SE_fix_noise ----
+2023-05-23 14:08:26,122 
+meta_fedavg mode rsmse
+General model setup:
+optimize_noise: True, noise_std: None, likelihood_str: Gaussian, covar_module_str: SE, mean_module_str: NN, kernel_nn_layers: [], mean_nn_layers: (16, 16), nonlinearity_output_m: None, nonlinearity_output_k: None, nonlinearity_hidden_m: <built-in method tanh of type object at 0x7fbebd28aa00>, nonlinearity_hidden_k: None, feature_dim: 2, optimize_lengthscale: True, lengthscale_fix: None, lr: 0.01, lr_decay: 0.9, task_batch_size: 5, normalize_data: True, num_iter_fit: 2500, max_iter_fit: 3000, early_stopping: True, n_threads: 8, ts_data: False, num_particles: 4, bandwidth: -1, hyper_prior_dict: {'outputscale_raw_loc': 0.54132485, 'outputscale_raw_scale': 0.01, 'lengthscale_raw_loc': -1.2586915, 'lengthscale_raw_scale': 2.5, 'noise_raw_loc': -2.2521687, 'noise_raw_scale': 0.1}, prior_factor: 0, 
+2023-05-23 14:08:26,123 
+[INFO]prior factor: 0.000000
+2023-05-23 14:08:26,152 params before training
+2023-05-23 14:08:26,153 
+SE kernel with lengthscale[[0.69]]raw = [[0.00]]
+SE kernel with outputscale0.69raw = 0.00
+SE kernel with noise[0.69]raw = [0.00]
+2023-05-23 14:08:26,338 Iter 1/2500 - Loss: 6.180273 - Time 0.02 sec - Neg-Valid-LL: 0.220 - Valid-RMSE: 0.235 - Calib-Err 0.180
+2023-05-23 14:08:29,717 Iter 200/2500 - Loss: 4.324368 - Time 3.38 sec - Neg-Valid-LL: -0.263 - Valid-RMSE: 0.212 - Calib-Err 0.114
+2023-05-23 14:08:33,130 Iter 400/2500 - Loss: 2.970756 - Time 3.39 sec - Neg-Valid-LL: -0.503 - Valid-RMSE: 0.197 - Calib-Err 0.118
+2023-05-23 14:08:36,552 Iter 600/2500 - Loss: 2.716326 - Time 3.41 sec - Neg-Valid-LL: -0.551 - Valid-RMSE: 0.190 - Calib-Err 0.121
+2023-05-23 14:08:39,970 Iter 800/2500 - Loss: 2.816999 - Time 3.40 sec - Neg-Valid-LL: -0.545 - Valid-RMSE: 0.189 - Calib-Err 0.124
+2023-05-23 14:08:43,393 Iter 1000/2500 - Loss: 2.723476 - Time 3.41 sec - Neg-Valid-LL: -0.555 - Valid-RMSE: 0.192 - Calib-Err 0.119
+2023-05-23 14:08:46,816 Iter 1200/2500 - Loss: 2.699123 - Time 3.41 sec - Neg-Valid-LL: -0.570 - Valid-RMSE: 0.189 - Calib-Err 0.120
+2023-05-23 14:08:50,238 Iter 1400/2500 - Loss: 2.708474 - Time 3.41 sec - Neg-Valid-LL: -0.575 - Valid-RMSE: 0.189 - Calib-Err 0.121
+2023-05-23 14:08:53,654 Iter 1600/2500 - Loss: 2.633975 - Time 3.40 sec - Neg-Valid-LL: -0.554 - Valid-RMSE: 0.193 - Calib-Err 0.117
+2023-05-23 14:08:57,087 Iter 1800/2500 - Loss: 2.717525 - Time 3.42 sec - Neg-Valid-LL: -0.577 - Valid-RMSE: 0.189 - Calib-Err 0.120
+2023-05-23 14:09:00,502 Iter 2000/2500 - Loss: 2.690619 - Time 3.40 sec - Neg-Valid-LL: -0.546 - Valid-RMSE: 0.192 - Calib-Err 0.121
+2023-05-23 14:09:03,922 Iter 2200/2500 - Loss: 2.612270 - Time 3.40 sec - Neg-Valid-LL: -0.544 - Valid-RMSE: 0.195 - Calib-Err 0.119
+2023-05-23 14:09:07,335 Iter 2400/2500 - Loss: 2.611492 - Time 3.39 sec - Neg-Valid-LL: -0.549 - Valid-RMSE: 0.200 - Calib-Err 0.117
+2023-05-23 14:09:08,988 params after training
+2023-05-23 14:09:08,990 
+SE kernel with lengthscale[[0.72]]raw = [[0.06]]
+SE kernel with outputscale0.66raw = -0.06
+SE kernel with noise[0.04]raw = [-3.22]
+2023-05-23 14:09:09,322 
+Train-rsmse: 0.3697, Valid-rsmse: 0.6889
+2023-05-23 14:09:09,322 
+Train-rsmse: 0.3697, Valid-rsmse: 0.6889
+100.0 percent completed.
+
+2023-05-23 14:09:09,322 [RES] best over all:
+with rsmsecriterion: train = 0.3697, valid = 0.6889
+obtained by: 
+2023-05-23 14:09:09,488 
+
+Best method is nn16x2_SE_fix_noise
+2023-05-23 14:09:09,488 Mean RSMSE for existing clients = 0.688906
+2023-05-23 14:09:09,489 Mean CE for existing clients = 0.120343
+2023-05-23 14:09:09,653 Mean RSMSE for new clients = 0.659586
+2023-05-23 14:09:09,653 Mean CE for new clients = 0.156138
+2023-05-23 14:09:24,256 ---- nn16x2_SE_fix_noise ----
+2023-05-23 14:09:24,256 
+meta_fedavg mode rsmse
+General model setup:
+optimize_noise: True, noise_std: None, likelihood_str: Gaussian, covar_module_str: SE, mean_module_str: NN, kernel_nn_layers: [], mean_nn_layers: (16, 16), nonlinearity_output_m: None, nonlinearity_output_k: None, nonlinearity_hidden_m: <built-in method tanh of type object at 0x7fbebd28aa00>, nonlinearity_hidden_k: None, feature_dim: 2, optimize_lengthscale: True, lengthscale_fix: None, lr: 0.01, lr_decay: 0.9, task_batch_size: 5, normalize_data: True, num_iter_fit: 2500, max_iter_fit: 3000, early_stopping: True, n_threads: 8, ts_data: False, num_particles: 4, bandwidth: -1, hyper_prior_dict: {'outputscale_raw_loc': 0.54132485, 'outputscale_raw_scale': 0.01, 'lengthscale_raw_loc': -1.2586915, 'lengthscale_raw_scale': 2.5, 'noise_raw_loc': -2.2521687, 'noise_raw_scale': 0.1}, prior_factor: 0, 
+2023-05-23 14:09:24,257 
+[INFO]prior factor: 0.000000
+2023-05-23 14:09:24,268 params before training
+2023-05-23 14:09:24,269 
+SE kernel with lengthscale[[0.69]]raw = [[0.00]]
+SE kernel with outputscale0.69raw = 0.00
+SE kernel with noise[0.69]raw = [0.00]
+2023-05-23 14:09:24,456 Iter 1/2500 - Loss: 5.604124 - Time 0.02 sec - Neg-Valid-LL: 0.187 - Valid-RMSE: 0.203 - Calib-Err 0.183
+2023-05-23 14:09:27,907 Iter 200/2500 - Loss: 4.565151 - Time 3.45 sec - Neg-Valid-LL: -0.411 - Valid-RMSE: 0.169 - Calib-Err 0.119
+2023-05-23 14:09:31,409 Iter 400/2500 - Loss: 3.364279 - Time 3.47 sec - Neg-Valid-LL: -0.615 - Valid-RMSE: 0.165 - Calib-Err 0.108
+2023-05-23 14:09:34,907 Iter 600/2500 - Loss: 3.123805 - Time 3.49 sec - Neg-Valid-LL: -0.654 - Valid-RMSE: 0.163 - Calib-Err 0.105
+2023-05-23 14:09:38,409 Iter 800/2500 - Loss: 3.033964 - Time 3.48 sec - Neg-Valid-LL: -0.661 - Valid-RMSE: 0.167 - Calib-Err 0.094
+2023-05-23 14:09:41,908 Iter 1000/2500 - Loss: 3.031926 - Time 3.49 sec - Neg-Valid-LL: -0.653 - Valid-RMSE: 0.164 - Calib-Err 0.100
+2023-05-23 14:09:45,414 Iter 1200/2500 - Loss: 3.016348 - Time 3.49 sec - Neg-Valid-LL: -0.679 - Valid-RMSE: 0.169 - Calib-Err 0.091
+2023-05-23 14:09:49,006 Iter 1400/2500 - Loss: 2.928491 - Time 3.47 sec - Neg-Valid-LL: -0.667 - Valid-RMSE: 0.159 - Calib-Err 0.097
+2023-05-23 14:09:53,030 Iter 1600/2500 - Loss: 2.867616 - Time 4.12 sec - Neg-Valid-LL: -0.640 - Valid-RMSE: 0.165 - Calib-Err 0.099
+2023-05-23 14:09:56,472 Iter 1800/2500 - Loss: 2.743499 - Time 3.43 sec - Neg-Valid-LL: -0.551 - Valid-RMSE: 0.180 - Calib-Err 0.101
+2023-05-23 14:10:00,346 Iter 2000/2500 - Loss: 2.761425 - Time 3.85 sec - Neg-Valid-LL: -0.610 - Valid-RMSE: 0.170 - Calib-Err 0.107
+2023-05-23 14:10:03,776 Iter 2200/2500 - Loss: 2.654342 - Time 3.41 sec - Neg-Valid-LL: -0.509 - Valid-RMSE: 0.177 - Calib-Err 0.109
+2023-05-23 14:10:07,196 Iter 2400/2500 - Loss: 2.584245 - Time 3.40 sec - Neg-Valid-LL: -0.433 - Valid-RMSE: 0.186 - Calib-Err 0.111
+2023-05-23 14:10:08,844 params after training
+2023-05-23 14:10:08,852 
+SE kernel with lengthscale[[0.66]]raw = [[-0.07]]
+SE kernel with outputscale0.67raw = -0.05
+SE kernel with noise[0.03]raw = [-3.64]
+2023-05-23 14:10:09,183 
+Train-rsmse: 0.2963, Valid-rsmse: 0.9022
+2023-05-23 14:10:09,183 
+Train-rsmse: 0.2963, Valid-rsmse: 0.9022
+100.0 percent completed.
+
+2023-05-23 14:10:09,184 [RES] best over all:
+with rsmsecriterion: train = 0.2963, valid = 0.9022
+obtained by: 
+2023-05-23 14:10:09,349 
+
+Best method is nn16x2_SE_fix_noise
+2023-05-23 14:10:09,350 Mean RSMSE for existing clients = 0.902235
+2023-05-23 14:10:09,350 Mean CE for existing clients = 0.110247
+2023-05-23 14:10:09,514 Mean RSMSE for new clients = 1.266809
+2023-05-23 14:10:09,514 Mean CE for new clients = 0.139781
+2023-05-23 14:10:31,855 ---- nn16x2_SE_fix_noise ----
+2023-05-23 14:10:31,855 
+meta_fedavg mode rsmse
+General model setup:
+optimize_noise: True, noise_std: None, likelihood_str: Gaussian, covar_module_str: SE, mean_module_str: NN, kernel_nn_layers: [], mean_nn_layers: (16, 16), nonlinearity_output_m: None, nonlinearity_output_k: None, nonlinearity_hidden_m: <built-in method tanh of type object at 0x7fbebd28aa00>, nonlinearity_hidden_k: None, feature_dim: 2, optimize_lengthscale: True, lengthscale_fix: None, lr: 0.01, lr_decay: 0.9, task_batch_size: 5, normalize_data: True, num_iter_fit: 2500, max_iter_fit: 3000, early_stopping: True, n_threads: 8, ts_data: False, num_particles: 4, bandwidth: -1, hyper_prior_dict: {'outputscale_raw_loc': 0.54132485, 'outputscale_raw_scale': 0.01, 'lengthscale_raw_loc': -1.2586915, 'lengthscale_raw_scale': 2.5, 'noise_raw_loc': -2.2521687, 'noise_raw_scale': 0.1}, prior_factor: 0, 
+2023-05-23 14:10:31,856 
+[INFO]prior factor: 0.000000
+2023-05-23 14:10:31,887 params before training
+2023-05-23 14:10:31,887 
+SE kernel with lengthscale[[0.69]]raw = [[0.00]]
+SE kernel with outputscale0.69raw = 0.00
+SE kernel with noise[0.69]raw = [0.00]
+2023-05-23 14:10:32,074 Iter 1/2500 - Loss: 6.197641 - Time 0.02 sec - Neg-Valid-LL: 0.189 - Valid-RMSE: 0.238 - Calib-Err 0.183
+2023-05-23 14:10:35,812 Iter 200/2500 - Loss: 4.978272 - Time 3.74 sec - Neg-Valid-LL: -0.296 - Valid-RMSE: 0.212 - Calib-Err 0.131
+2023-05-23 14:10:39,217 Iter 400/2500 - Loss: 3.970400 - Time 3.39 sec - Neg-Valid-LL: -0.610 - Valid-RMSE: 0.198 - Calib-Err 0.117
+2023-05-23 14:10:42,629 Iter 600/2500 - Loss: 3.676332 - Time 3.40 sec - Neg-Valid-LL: -0.741 - Valid-RMSE: 0.205 - Calib-Err 0.123
+2023-05-23 14:10:46,033 Iter 800/2500 - Loss: 3.677823 - Time 3.38 sec - Neg-Valid-LL: -0.766 - Valid-RMSE: 0.195 - Calib-Err 0.127
+2023-05-23 14:10:49,445 Iter 1000/2500 - Loss: 3.699182 - Time 3.40 sec - Neg-Valid-LL: -0.798 - Valid-RMSE: 0.196 - Calib-Err 0.124
+2023-05-23 14:10:52,851 Iter 1200/2500 - Loss: 3.650241 - Time 3.38 sec - Neg-Valid-LL: -0.788 - Valid-RMSE: 0.201 - Calib-Err 0.124
+2023-05-23 14:10:56,272 Iter 1400/2500 - Loss: 3.727284 - Time 3.41 sec - Neg-Valid-LL: -0.785 - Valid-RMSE: 0.203 - Calib-Err 0.130
+2023-05-23 14:10:59,685 Iter 1600/2500 - Loss: 3.665050 - Time 3.40 sec - Neg-Valid-LL: -0.788 - Valid-RMSE: 0.204 - Calib-Err 0.119
+2023-05-23 14:11:03,127 Iter 1800/2500 - Loss: 3.664082 - Time 3.41 sec - Neg-Valid-LL: -0.782 - Valid-RMSE: 0.200 - Calib-Err 0.123
+2023-05-23 14:11:06,874 Iter 2000/2500 - Loss: 3.659889 - Time 3.72 sec - Neg-Valid-LL: -0.821 - Valid-RMSE: 0.196 - Calib-Err 0.123
+2023-05-23 14:11:10,293 Iter 2200/2500 - Loss: 3.654958 - Time 3.40 sec - Neg-Valid-LL: -0.763 - Valid-RMSE: 0.206 - Calib-Err 0.123
+2023-05-23 14:11:14,017 Iter 2400/2500 - Loss: 3.665031 - Time 3.71 sec - Neg-Valid-LL: -0.770 - Valid-RMSE: 0.210 - Calib-Err 0.122
+2023-05-23 14:11:15,674 params after training
+2023-05-23 14:11:15,681 
+SE kernel with lengthscale[[0.34]]raw = [[-0.90]]
+SE kernel with outputscale0.68raw = -0.03
+SE kernel with noise[0.03]raw = [-3.56]
+2023-05-23 14:11:16,013 
+Train-rsmse: 0.2091, Valid-rsmse: 0.8432
+2023-05-23 14:11:16,013 
+Train-rsmse: 0.2091, Valid-rsmse: 0.8432
+100.0 percent completed.
+
+2023-05-23 14:11:16,014 [RES] best over all:
+with rsmsecriterion: train = 0.2091, valid = 0.8432
+obtained by: 
+2023-05-23 14:11:16,180 
+
+Best method is nn16x2_SE_fix_noise
+2023-05-23 14:11:16,180 Mean RSMSE for existing clients = 0.843184
+2023-05-23 14:11:16,180 Mean CE for existing clients = 0.118826
+2023-05-23 14:11:16,344 Mean RSMSE for new clients = 0.868137
+2023-05-23 14:11:16,344 Mean CE for new clients = 0.130075

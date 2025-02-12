@@ -1,0 +1,326 @@
+2023-12-17 06:32:22,404 ----- meta-train with 70 samples per client
+2023-12-17 06:32:22,405 
+ours mode rsmse
+General model setup:
+optimize_noise: True, noise_std: None, likelihood_str: Gaussian, covar_module_str: SE, mean_module_str: NN, kernel_nn_layers: [], mean_nn_layers: (16, 16), nonlinearity_output_m: None, nonlinearity_output_k: None, nonlinearity_hidden_m: <built-in method tanh of type object at 0x7f02a948aa00>, nonlinearity_hidden_k: None, feature_dim: 2, optimize_lengthscale: True, lengthscale_fix: None, lr: 0.01, lr_decay: 0.9, task_batch_size: 5, normalize_data: True, num_iter_fit: 2500, max_iter_fit: 3000, early_stopping: True, n_threads: 8, ts_data: False, num_particles: 4, bandwidth: -1, hyper_prior_dict: {'lengthscale_raw_loc': -2.2521687, 'lengthscale_raw_scale': 1.5, 'outputscale_raw_loc': 0.54132485, 'outputscale_raw_scale': 0.01, 'noise_raw_loc': -2.2521687, 'noise_raw_scale': 0.1}, 
+2023-12-17 06:32:22,431 
+[INFO]prior factor: 0.700000
+2023-12-17 06:32:22,436 params before training
+2023-12-17 06:32:22,438 SE kernel with lengthscale = [[0.01]
+ [0.41]
+ [0.04]
+ [0.45]] (raw = [[-4.82]
+ [-0.68]
+ [-3.22]
+ [-0.56]])
+SE kernel with outputscale = [[1.01]
+ [1.01]
+ [1.00]
+ [0.99]] (raw = [[0.55]
+ [0.55]
+ [0.54]
+ [0.53]])
+NN mean
+norm of weights in hidden layer 0 = 15.42, norm of biases = 52.67
+norm of weights in hidden layer 1 = 20.02, norm of biases = 49.27
+norm of weights in output layer = 3.79, norm of biases = 66.72
+Tuned noise std = tensor([[0.0973],
+        [0.1051],
+        [0.1049],
+        [0.1094]]), raw = tensor([[-2.2814],
+        [-2.2001],
+        [-2.2014],
+        [-2.1572]])
+2023-12-17 06:32:24,007 Iter 1/2500 - Time 0.18 sec -  av. grad norm: 370.502 - Train-rsmse: 0.39, Valid-rsmse: 0.44
+2023-12-17 06:32:32,047 Iter 200/2500 - Time 8.17 sec -  av. grad norm: 367.712 - Train-rsmse: 0.35, Valid-rsmse: 0.36
+2023-12-17 06:32:40,006 Iter 400/2500 - Time 7.96 sec -  av. grad norm: 96.587 - Train-rsmse: 0.33, Valid-rsmse: 0.34
+2023-12-17 06:32:47,863 Iter 600/2500 - Time 7.87 sec -  av. grad norm: 36.793 - Train-rsmse: 0.31, Valid-rsmse: 0.33
+2023-12-17 06:32:55,753 Iter 800/2500 - Time 7.90 sec -  av. grad norm: 21.846 - Train-rsmse: 0.30, Valid-rsmse: 0.33
+2023-12-17 06:33:03,370 Iter 1000/2500 - Time 7.56 sec -  av. grad norm: 18.166 - Train-rsmse: 0.29, Valid-rsmse: 0.33
+2023-12-17 06:33:12,227 Iter 1200/2500 - Time 8.92 sec -  av. grad norm: 16.720 - Train-rsmse: 0.28, Valid-rsmse: 0.32
+2023-12-17 06:33:19,623 Iter 1400/2500 - Time 7.40 sec -  av. grad norm: 15.684 - Train-rsmse: 0.27, Valid-rsmse: 0.32
+2023-12-17 06:33:27,091 Iter 1600/2500 - Time 7.47 sec -  av. grad norm: 14.608 - Train-rsmse: 0.27, Valid-rsmse: 0.32
+2023-12-17 06:33:34,396 Iter 1800/2500 - Time 7.30 sec -  av. grad norm: 13.131 - Train-rsmse: 0.27, Valid-rsmse: 0.32
+2023-12-17 06:33:42,172 Iter 2000/2500 - Time 7.77 sec -  av. grad norm: 11.651 - Train-rsmse: 0.27, Valid-rsmse: 0.32
+2023-12-17 06:33:49,828 Iter 2200/2500 - Time 7.66 sec -  av. grad norm: 10.193 - Train-rsmse: 0.27, Valid-rsmse: 0.32
+2023-12-17 06:33:50,592 [Unhandled ERR]_LinAlgError
+
+2023-12-17 06:33:50,592 linalg.svd: (Batch element 1): The algorithm failed to converge because the input matrix is ill-conditioned or has too many repeated singular values (error code: 1).
+2023-12-17 06:33:50,592 params after training
+2023-12-17 06:33:50,594 SE kernel with lengthscale = [[0.31]
+ [0.27]
+ [0.48]
+ [0.58]] (raw = [[-1.01]
+ [-1.15]
+ [-0.49]
+ [-0.24]])
+SE kernel with outputscale = [[1.00]
+ [1.00]
+ [1.00]
+ [1.00]] (raw = [[0.54]
+ [0.54]
+ [0.54]
+ [0.54]])
+NN mean
+norm of weights in hidden layer 0 = 0.17, norm of biases = 15.08
+norm of weights in hidden layer 1 = 1.10, norm of biases = 18.32
+norm of weights in output layer = 9.47, norm of biases = 57.72
+Tuned noise std = tensor([[0.0994],
+        [0.0979],
+        [0.0996],
+        [0.0986]]), raw = tensor([[-2.2580],
+        [-2.2745],
+        [-2.2568],
+        [-2.2670]])
+2023-12-17 06:33:51,183 
+Train-rsmse: 0.2739, Valid-rsmse: 0.3176
+2023-12-17 06:33:51,184 
+[INFO]prior factor: 0.800000
+2023-12-17 06:33:51,187 params before training
+2023-12-17 06:33:51,189 SE kernel with lengthscale = [[0.01]
+ [0.41]
+ [0.04]
+ [0.45]] (raw = [[-4.82]
+ [-0.68]
+ [-3.22]
+ [-0.56]])
+SE kernel with outputscale = [[1.01]
+ [1.01]
+ [1.00]
+ [0.99]] (raw = [[0.55]
+ [0.55]
+ [0.54]
+ [0.53]])
+NN mean
+norm of weights in hidden layer 0 = 15.42, norm of biases = 52.67
+norm of weights in hidden layer 1 = 20.02, norm of biases = 49.27
+norm of weights in output layer = 3.79, norm of biases = 66.72
+Tuned noise std = tensor([[0.0973],
+        [0.1051],
+        [0.1049],
+        [0.1094]]), raw = tensor([[-2.2814],
+        [-2.2001],
+        [-2.2014],
+        [-2.1572]])
+2023-12-17 06:33:52,490 Iter 1/2500 - Time 0.04 sec -  av. grad norm: 371.092 - Train-rsmse: 0.39, Valid-rsmse: 0.44
+2023-12-17 06:34:00,919 Iter 200/2500 - Time 8.44 sec -  av. grad norm: 367.996 - Train-rsmse: 0.35, Valid-rsmse: 0.36
+2023-12-17 06:34:09,016 Iter 400/2500 - Time 8.09 sec -  av. grad norm: 98.159 - Train-rsmse: 0.33, Valid-rsmse: 0.34
+2023-12-17 06:34:17,225 Iter 600/2500 - Time 8.21 sec -  av. grad norm: 38.540 - Train-rsmse: 0.31, Valid-rsmse: 0.34
+2023-12-17 06:34:25,001 Iter 800/2500 - Time 7.80 sec -  av. grad norm: 24.432 - Train-rsmse: 0.30, Valid-rsmse: 0.33
+2023-12-17 06:34:32,852 Iter 1000/2500 - Time 7.86 sec -  av. grad norm: 20.832 - Train-rsmse: 0.29, Valid-rsmse: 0.32
+2023-12-17 06:34:40,537 Iter 1200/2500 - Time 7.69 sec -  av. grad norm: 19.057 - Train-rsmse: 0.28, Valid-rsmse: 0.32
+2023-12-17 06:34:47,906 Iter 1400/2500 - Time 7.37 sec -  av. grad norm: 17.587 - Train-rsmse: 0.27, Valid-rsmse: 0.32
+2023-12-17 06:34:55,296 Iter 1600/2500 - Time 7.39 sec -  av. grad norm: 15.875 - Train-rsmse: 0.27, Valid-rsmse: 0.32
+2023-12-17 06:35:02,641 Iter 1800/2500 - Time 7.34 sec -  av. grad norm: 13.911 - Train-rsmse: 0.27, Valid-rsmse: 0.32
+2023-12-17 06:35:10,126 Iter 2000/2500 - Time 7.47 sec -  av. grad norm: 11.976 - Train-rsmse: 0.27, Valid-rsmse: 0.32
+2023-12-17 06:35:17,733 Iter 2200/2500 - Time 7.62 sec -  av. grad norm: 10.193 - Train-rsmse: 0.27, Valid-rsmse: 0.32
+2023-12-17 06:35:25,103 Iter 2400/2500 - Time 7.37 sec -  av. grad norm: 8.069 - Train-rsmse: 0.27, Valid-rsmse: 0.32
+2023-12-17 06:35:28,553 params after training
+2023-12-17 06:35:28,556 SE kernel with lengthscale = [[0.36]
+ [0.27]
+ [0.55]
+ [0.59]] (raw = [[-0.84]
+ [-1.19]
+ [-0.32]
+ [-0.21]])
+SE kernel with outputscale = [[1.00]
+ [1.00]
+ [1.00]
+ [1.00]] (raw = [[0.54]
+ [0.54]
+ [0.54]
+ [0.54]])
+NN mean
+norm of weights in hidden layer 0 = 0.13, norm of biases = 14.91
+norm of weights in hidden layer 1 = 1.02, norm of biases = 17.96
+norm of weights in output layer = 8.70, norm of biases = 57.57
+Tuned noise std = tensor([[0.0999],
+        [0.0982],
+        [0.0999],
+        [0.0988]]), raw = tensor([[-2.2536],
+        [-2.2710],
+        [-2.2530],
+        [-2.2648]])
+2023-12-17 06:35:29,141 
+Train-rsmse: 0.2712, Valid-rsmse: 0.3162
+2023-12-17 06:35:29,141 
+[INFO]prior factor: 0.900000
+2023-12-17 06:35:29,145 params before training
+2023-12-17 06:35:29,147 SE kernel with lengthscale = [[0.01]
+ [0.41]
+ [0.04]
+ [0.45]] (raw = [[-4.82]
+ [-0.68]
+ [-3.22]
+ [-0.56]])
+SE kernel with outputscale = [[1.01]
+ [1.01]
+ [1.00]
+ [0.99]] (raw = [[0.55]
+ [0.55]
+ [0.54]
+ [0.53]])
+NN mean
+norm of weights in hidden layer 0 = 15.42, norm of biases = 52.67
+norm of weights in hidden layer 1 = 20.02, norm of biases = 49.27
+norm of weights in output layer = 3.79, norm of biases = 66.72
+Tuned noise std = tensor([[0.0973],
+        [0.1051],
+        [0.1049],
+        [0.1094]]), raw = tensor([[-2.2814],
+        [-2.2001],
+        [-2.2014],
+        [-2.1572]])
+2023-12-17 06:35:30,448 Iter 1/2500 - Time 0.04 sec -  av. grad norm: 371.757 - Train-rsmse: 0.39, Valid-rsmse: 0.44
+2023-12-17 06:35:38,573 Iter 200/2500 - Time 8.13 sec -  av. grad norm: 368.357 - Train-rsmse: 0.36, Valid-rsmse: 0.37
+2023-12-17 06:35:46,586 Iter 400/2500 - Time 8.02 sec -  av. grad norm: 99.671 - Train-rsmse: 0.33, Valid-rsmse: 0.35
+2023-12-17 06:35:54,636 Iter 600/2500 - Time 8.00 sec -  av. grad norm: 40.466 - Train-rsmse: 0.31, Valid-rsmse: 0.34
+2023-12-17 06:36:02,565 Iter 800/2500 - Time 7.99 sec -  av. grad norm: 27.038 - Train-rsmse: 0.30, Valid-rsmse: 0.33
+2023-12-17 06:36:10,220 Iter 1000/2500 - Time 7.66 sec -  av. grad norm: 23.329 - Train-rsmse: 0.29, Valid-rsmse: 0.32
+2023-12-17 06:36:17,595 Iter 1200/2500 - Time 7.38 sec -  av. grad norm: 21.111 - Train-rsmse: 0.27, Valid-rsmse: 0.32
+2023-12-17 06:36:25,037 Iter 1400/2500 - Time 7.45 sec -  av. grad norm: 19.080 - Train-rsmse: 0.27, Valid-rsmse: 0.31
+2023-12-17 06:36:32,454 Iter 1600/2500 - Time 7.41 sec -  av. grad norm: 16.789 - Train-rsmse: 0.27, Valid-rsmse: 0.32
+2023-12-17 06:36:39,852 Iter 1800/2500 - Time 7.39 sec -  av. grad norm: 14.274 - Train-rsmse: 0.27, Valid-rsmse: 0.32
+2023-12-17 06:36:47,352 Iter 2000/2500 - Time 7.46 sec -  av. grad norm: 12.490 - Train-rsmse: 0.27, Valid-rsmse: 0.32
+2023-12-17 06:36:54,827 Iter 2200/2500 - Time 7.52 sec -  av. grad norm: 9.696 - Train-rsmse: 0.27, Valid-rsmse: 0.32
+2023-12-17 06:37:02,508 Iter 2400/2500 - Time 7.68 sec -  av. grad norm: 8.216 - Train-rsmse: 0.27, Valid-rsmse: 0.32
+2023-12-17 06:37:05,905 params after training
+2023-12-17 06:37:05,907 SE kernel with lengthscale = [[0.41]
+ [0.26]
+ [0.61]
+ [0.60]] (raw = [[-0.67]
+ [-1.22]
+ [-0.17]
+ [-0.19]])
+SE kernel with outputscale = [[1.00]
+ [1.00]
+ [1.00]
+ [1.00]] (raw = [[0.54]
+ [0.54]
+ [0.54]
+ [0.54]])
+NN mean
+norm of weights in hidden layer 0 = 0.10, norm of biases = 14.77
+norm of weights in hidden layer 1 = 0.94, norm of biases = 17.63
+norm of weights in output layer = 7.99, norm of biases = 57.45
+Tuned noise std = tensor([[0.1002],
+        [0.0985],
+        [0.1002],
+        [0.0990]]), raw = tensor([[-2.2503],
+        [-2.2682],
+        [-2.2497],
+        [-2.2628]])
+2023-12-17 06:37:06,496 
+Train-rsmse: 0.2688, Valid-rsmse: 0.3150
+2023-12-17 06:37:06,496 
+[INFO]prior factor: 1.000000
+2023-12-17 06:37:06,499 params before training
+2023-12-17 06:37:06,501 SE kernel with lengthscale = [[0.01]
+ [0.41]
+ [0.04]
+ [0.45]] (raw = [[-4.82]
+ [-0.68]
+ [-3.22]
+ [-0.56]])
+SE kernel with outputscale = [[1.01]
+ [1.01]
+ [1.00]
+ [0.99]] (raw = [[0.55]
+ [0.55]
+ [0.54]
+ [0.53]])
+NN mean
+norm of weights in hidden layer 0 = 15.42, norm of biases = 52.67
+norm of weights in hidden layer 1 = 20.02, norm of biases = 49.27
+norm of weights in output layer = 3.79, norm of biases = 66.72
+Tuned noise std = tensor([[0.0973],
+        [0.1051],
+        [0.1049],
+        [0.1094]]), raw = tensor([[-2.2814],
+        [-2.2001],
+        [-2.2014],
+        [-2.1572]])
+2023-12-17 06:37:07,803 Iter 1/2500 - Time 0.04 sec -  av. grad norm: 372.496 - Train-rsmse: 0.39, Valid-rsmse: 0.44
+2023-12-17 06:37:15,922 Iter 200/2500 - Time 8.12 sec -  av. grad norm: 368.754 - Train-rsmse: 0.36, Valid-rsmse: 0.37
+2023-12-17 06:37:23,936 Iter 400/2500 - Time 8.03 sec -  av. grad norm: 101.141 - Train-rsmse: 0.33, Valid-rsmse: 0.35
+2023-12-17 06:37:31,893 Iter 600/2500 - Time 7.93 sec -  av. grad norm: 42.526 - Train-rsmse: 0.32, Valid-rsmse: 0.34
+2023-12-17 06:37:39,574 Iter 800/2500 - Time 7.73 sec -  av. grad norm: 29.603 - Train-rsmse: 0.30, Valid-rsmse: 0.33
+2023-12-17 06:37:47,498 Iter 1000/2500 - Time 7.93 sec -  av. grad norm: 25.622 - Train-rsmse: 0.29, Valid-rsmse: 0.32
+2023-12-17 06:37:54,901 Iter 1200/2500 - Time 7.40 sec -  av. grad norm: 22.889 - Train-rsmse: 0.27, Valid-rsmse: 0.32
+2023-12-17 06:38:02,407 Iter 1400/2500 - Time 7.51 sec -  av. grad norm: 20.195 - Train-rsmse: 0.27, Valid-rsmse: 0.31
+2023-12-17 06:38:09,764 Iter 1600/2500 - Time 7.35 sec -  av. grad norm: 17.413 - Train-rsmse: 0.26, Valid-rsmse: 0.32
+2023-12-17 06:38:17,214 Iter 1800/2500 - Time 7.45 sec -  av. grad norm: 14.518 - Train-rsmse: 0.26, Valid-rsmse: 0.32
+2023-12-17 06:38:24,624 Iter 2000/2500 - Time 7.41 sec -  av. grad norm: 11.822 - Train-rsmse: 0.26, Valid-rsmse: 0.32
+2023-12-17 06:38:32,022 Iter 2200/2500 - Time 7.40 sec -  av. grad norm: 9.548 - Train-rsmse: 0.27, Valid-rsmse: 0.32
+2023-12-17 06:38:39,748 Iter 2400/2500 - Time 7.73 sec -  av. grad norm: 8.771 - Train-rsmse: 0.27, Valid-rsmse: 0.32
+2023-12-17 06:38:43,162 params after training
+2023-12-17 06:38:43,164 SE kernel with lengthscale = [[0.46]
+ [0.25]
+ [0.67]
+ [0.61]] (raw = [[-0.53]
+ [-1.24]
+ [-0.04]
+ [-0.17]])
+SE kernel with outputscale = [[1.00]
+ [1.00]
+ [1.00]
+ [1.00]] (raw = [[0.54]
+ [0.54]
+ [0.54]
+ [0.54]])
+NN mean
+norm of weights in hidden layer 0 = 0.08, norm of biases = 14.64
+norm of weights in hidden layer 1 = 0.88, norm of biases = 17.33
+norm of weights in output layer = 7.35, norm of biases = 57.35
+Tuned noise std = tensor([[0.1004],
+        [0.0987],
+        [0.1005],
+        [0.0991]]), raw = tensor([[-2.2477],
+        [-2.2662],
+        [-2.2464],
+        [-2.2612]])
+2023-12-17 06:38:43,753 
+Train-rsmse: 0.2666, Valid-rsmse: 0.3140
+2023-12-17 06:38:43,753 
+[INFO] pf scheduler finished generating  4 prior factors.
+100.0 percent completed.
+
+2023-12-17 06:38:43,754 [RES] best over all:
+with rsmsecriterion: train = 0.2666, valid = 0.3140
+obtained by: 
+prior_factor: 0.9999999999999999
+2023-12-17 06:38:43,754 ----- meta-train with 80 samples per client
+2023-12-17 06:38:43,755 
+ours mode rsmse
+General model setup:
+optimize_noise: True, noise_std: None, likelihood_str: Gaussian, covar_module_str: SE, mean_module_str: NN, kernel_nn_layers: [], mean_nn_layers: (16, 16), nonlinearity_output_m: None, nonlinearity_output_k: None, nonlinearity_hidden_m: <built-in method tanh of type object at 0x7f02a948aa00>, nonlinearity_hidden_k: None, feature_dim: 2, optimize_lengthscale: True, lengthscale_fix: None, lr: 0.01, lr_decay: 0.9, task_batch_size: 5, normalize_data: True, num_iter_fit: 2500, max_iter_fit: 3000, early_stopping: True, n_threads: 8, ts_data: False, num_particles: 4, bandwidth: -1, hyper_prior_dict: {'lengthscale_raw_loc': -2.2521687, 'lengthscale_raw_scale': 1.5, 'outputscale_raw_loc': 0.54132485, 'outputscale_raw_scale': 0.01, 'noise_raw_loc': -2.2521687, 'noise_raw_scale': 0.1}, 
+2023-12-17 06:38:43,755 
+[INFO]prior factor: 0.700000
+2023-12-17 06:38:43,758 params before training
+2023-12-17 06:38:43,760 SE kernel with lengthscale = [[0.01]
+ [0.41]
+ [0.04]
+ [0.45]] (raw = [[-4.82]
+ [-0.68]
+ [-3.22]
+ [-0.56]])
+SE kernel with outputscale = [[1.01]
+ [1.01]
+ [1.00]
+ [0.99]] (raw = [[0.55]
+ [0.55]
+ [0.54]
+ [0.53]])
+NN mean
+norm of weights in hidden layer 0 = 15.42, norm of biases = 52.67
+norm of weights in hidden layer 1 = 20.02, norm of biases = 49.27
+norm of weights in output layer = 3.79, norm of biases = 66.72
+Tuned noise std = tensor([[0.0973],
+        [0.1051],
+        [0.1049],
+        [0.1094]]), raw = tensor([[-2.2814],
+        [-2.2001],
+        [-2.2014],
+        [-2.1572]])
+2023-12-17 06:38:45,164 Iter 1/2500 - Time 0.04 sec -  av. grad norm: 371.989 - Train-rsmse: 0.39, Valid-rsmse: 0.42
+2023-12-17 06:38:54,094 Iter 200/2500 - Time 8.97 sec -  av. grad norm: 374.477 - Train-rsmse: 0.34, Valid-rsmse: 0.35
